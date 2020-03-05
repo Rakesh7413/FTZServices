@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+ 	margin: 0;
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    line-height: 20px;
+    color: #fff;
+    background-color: #4A6BAE ;
+    width: 100%;
+ 	height: 100%;
+
+}
+#wrapper 
+{
+    width: 957px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+.clear
+{
+    clear: both;
+}
+#Header 
+{
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    height: 58px;
+    padding: 5px;
+} 
+
+#TopNavigation 
+{
+    height: 56px;
+    width: 946px;
+    border: 1px solid #414D5F;
+}
+#TopMenuItems {
+    float: right;
+    margin: 0px;
+    margin-top: 16px;
+}
+#TopMenuItems .RadMenu, #TopMenuItems .RadMenu_Default {
+    padding: 0;
+    margin: 0;
+    border: none
+}
+#Logo {
+    float: left;
+    height: 158px;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+    width: 224px;
+}
+#Logo img
+{
+    border: none;
+}
+#Banner
+{
+    background:rgba(0,0,0,0.2);
+    line-height: 1.4;
+    font-size: 40px;
+    height:200px;
+}
+#OurServiceBanner
+{
+    min-height: 45px;
+}
+#contentArea
+{
+    background:rgb(0,0,0);
+}
+td
+{
+	display: table-cell;
+    padding: 20px 10px 0px;
+}
+{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li
+{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a
+{
+	color: #9DCCE9;
+    font-weight: 600;
+} 
+#UniversalNavigation 
+{
+    background: rgba(0,0,0,0.4);
+    float: right;
+    font-weight: normal;
+    height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 354px;
+}
+#UniversalNavigation a 
+{
+    color: #FFF;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+#UniversalNavigation span 
+{
+    color: #B2DDFC;
+    width: 440px;
+}
+#UniversalNavigation a.LastLink 
+{
+    padding-right: 0 !important;
+}
+.clear 
+{
+    clear: both;
+}
+#Main
+{
+    background: rgba(0,0,0,0.8);
+    min-height: 550px;
+    height: 562 !important;
+    color: rgb(200,200,200);
+    padding-bottom: 20px;
+}
+ul.pageListVertical {
+    border-top: solid 1px #5F647A;
+    border-bottom: solid 1px #5F647A;
+    padding: 15px 0px ;
+    font-size: 15px;
+    list-style: none;
+    width: 277px;
+}
+#LeftSideBar {
+    font-size: 11px;
+    clear: both;
+    width: 291px;
+    margin-left: 30;
+    padding: 20px 0px 20px 20px;
+    float: left;
+}
+#LeftSideBar img {
+    margin-bottom: 7px;
+    margin-top: 14px;
+}
+#PageContent, #BottomContent 
+{
+    padding: 15px 25px 0;
+}
+#TopContent
+{
+    padding: 15px 10px 0;
+    margin: 0px 4px 0;
+    border: 1px solid;
+    border-image: linear-gradient(rgb(20,20,20),rgb(120,120,120));
+    border-image-slice: 1; 
+}
+
+.img .prop
+{
+    border-width: 0px;
+    padding-bottom: 10px;
+}
+#TopMenuItems .RadMenu ul.rmHorizontal li a:hover
+{
+    background-color: #4A6BAE;
+    border-radius: 4px;
+}
+#TopMenuItems .RadMenu ul.rmHorizontal li a.Home
+{
+    background-color: #4A6BAE;
+    border-radius: 4px;
+}
+#TopMenuItems .RadMenu ul.rmHorizontal li.rmItem {
+    float: left;
+    list-style-type: none;
+}
+#TopMenuItems .RadMenu ul.rmHorizontal li a .rmText {
+    color: #9DCCE9;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 3px 15px;
+    text-transform: uppercase;
+}
+#outerBackground {
+	height: 100%;
+    padding-bottom: 0px;
+    background: #4A6BAE url(bg.jpg) no-repeat center top;
+    min-height: 800px;
+}
+.homeContent
+{
+    width: 280px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#TopMenuItems .RadMenu ul.rmHorizontal li a {
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 15px;
+    padding: 5px 0 11px;
+    text-decoration: none;
+}
+button
+{
+    width: 50%;
+    height: 30%;
+    font-weight: bold;
+    background-image: linear-gradient( #135D75 , rgb(20,20,20));
+    color: white;
+    border-radius: 4px;
+    border-color: #135D75 ; 
+}
+#homeTable .Main
+{
+    display: inline-block;
+    padding: 20px 12px;
+}
+.requestSomeoneBtnContainer {
+    background: rgba(16,34,28,0.2);
+    border-bottom: 1px solid #606678;
+    border-top: 1px solid #606678;
+    float: right;
+    height: 69px !important;
+    margin: 20px 0 0;
+    padding: 20px 0 0 25px;
+    width: 555px;
+}
+.footer
+{
+    height: auto !important;
+    background: rgba(0,0,0,0.4);
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+}
+#footerLinks a
+{
+    color: white;
+}
+.ftzHead
+{
+    margin-bottom: 10;
+}
+#RightSideBar {
+    float: right;
+    padding: 20px 30px 20px 0px;
+    width: 575px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#RightSideBar ul{
+    margin-left: 0px;
+    padding: 15px 0 0 35px;
+}
+#TopContent ul li {
+    padding-left: 0;
+}
+#TopContent .mainheader {
+    color: #C4E2FF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 10px 15px 10px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
